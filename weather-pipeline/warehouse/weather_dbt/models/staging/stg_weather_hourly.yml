@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: stg_weather_hourly
+    columns:
+      - name: location_name
+        tests: [not_null]
+      - name: time
+        tests: [not_null]
+      - name: local_date
+        tests: [not_null]
+      - name: local_hour
+        tests: [not_null]
+

@@ -1,0 +1,31 @@
+[0m21:40:03.310197 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103d2c980>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c5b750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104c5b9d0>]}
+
+
+============================== 21:40:03.314626 | d144859c-7eb7-47e2-a831-af409c5e70ba ==============================
+[0m21:40:03.314626 [info ] [MainThread]: Running with dbt=1.11.2
+[0m21:40:03.315111 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'empty': 'None', 'cache_selected_only': 'False', 'debug': 'False', 'log_cache_events': 'False', 'invocation_command': 'dbt init weather_dbt', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'target_path': 'None', 'introspect': 'True', 'log_path': 'logs', 'version_check': 'True', 'no_print': 'None', 'profiles_dir': '/Users/raghemahamud/.dbt', 'indirect_selection': 'eager', 'fail_fast': 'False', 'use_colors': 'True', 'write_json': 'True', 'log_format': 'default', 'quiet': 'False', 'static_parser': 'True', 'partial_parse': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False'}
+[0m21:40:03.327017 [info ] [MainThread]: Creating dbt configuration folder at /Users/raghemahamud/.dbt
+[0m21:40:03.328497 [debug] [MainThread]: Starter project path: /Users/raghemahamud/weather-pipeline/.venv/lib/python3.13/site-packages/dbt/include/starter_project
+[0m21:40:03.334298 [info ] [MainThread]: 
+Your new dbt project "weather_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:40:03.334612 [info ] [MainThread]: Setting up your profile.
+[0m21:41:01.676841 [info ] [MainThread]: Profile weather_dbt written to /Users/raghemahamud/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:41:01.705193 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 58.460083, "process_in_blocks": "0", "process_kernel_time": 0.213754, "process_mem_max_rss": "111771648", "process_out_blocks": "0", "process_user_time": 1.088889}
+[0m21:41:01.706107 [debug] [MainThread]: Command `dbt init` succeeded at 21:41:01.705936 after 58.46 seconds
+[0m21:41:01.706646 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1053455b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103f0ef90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104cf38a0>]}
+[0m21:41:01.707182 [debug] [MainThread]: Flushing usage events
+[0m21:41:02.139875 [debug] [MainThread]: An error was encountered while trying to flush usage events
